@@ -22,13 +22,16 @@
 </div>
 
 
-</h2>
-  <samp>
-    <a href="https://www.kaggle.com/competitions/spaceship-titanic/">「Spaceship Titanic」</a>
-    <br>
-    「Presented to: Robert Yates」
-  </samp>
-</h2>
+<div style="text-align:center;">
+    <h2 style="font-size: 24px;">
+        <samp>
+            <a href="https://www.kaggle.com/competitions/spaceship-titanic/">「Spaceship Titanic」</a>
+            <br>
+            「Presented to: Robert Yates」
+        </samp>
+    </h2>
+</div>
+
 
 
 <!-- About Section -->

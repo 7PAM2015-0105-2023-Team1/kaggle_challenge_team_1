@@ -7,13 +7,13 @@
 </h3>
 -->
 <!-- Intro  -->
-<h3 align="center">
+<h1 align="center">
         <samp>&gt; Group Project - Kaggle Challenge
           <br>
                 <b><a target="_blank" href="https://github.com/7PAM2015-0105-2023-Team1">
 7PAM2015-0105--2023-Team1</a></b>
         </samp>
-</h3>
+</h1>
 
 <p align="center"> 
 <p>

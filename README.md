@@ -121,3 +121,72 @@ To describe the model, its successes and failures, and collaborative work on the
 
 By following this process, the team can effectively describe the model, its successes and failures, and collaborative efforts in completing the Kaggle Challenge. Additionally, the presentation of EDA and performance analysis helps provide insights into the data and model performance.
 
+
+title: Kaggle Challenge Team 1 Sequence Diagram
+
+participant: Kaggle_Challenge_Team_1.ipynb
+participant: pandas
+participant: numpy
+participant: matplotlib
+participant: seaborn
+participant: sklearn.preprocessing
+participant: sklearn.model_selection
+participant: tensorflow
+participant: torch
+participant: shap
+
+Kaggle_Challenge_Team_1.ipynb -> pandas: read_csv('train.csv')
+pandas -> Kaggle_Challenge_Team_1.ipynb: train_df
+
+Kaggle_Challenge_Team_1.ipynb -> pandas: read_csv('test.csv')
+pandas -> Kaggle_Challenge_Team_1.ipynb: test_df
+
+Kaggle_Challenge_Team_1.ipynb -> pandas: read_csv('sample_submission.csv')
+pandas -> Kaggle_Challenge_Team_1.ipynb: sample_submission_df
+
+Kaggle_Challenge_Team_1.ipynb -> seaborn: heatmap(correlation)
+seaborn --> Kaggle_Challenge_Team_1.ipynb: Correlation Heatmap
+
+Kaggle_Challenge_Team_1.ipynb -> seaborn: pairplot(dropped_train_df)
+seaborn --> Kaggle_Challenge_Team_1.ipynb: Pair Plot
+
+Kaggle_Challenge_Team_1.ipynb -> seaborn: relplot(x='Age', y='Spa', hue='HomePlanet')
+seaborn --> Kaggle_Challenge_Team_1.ipynb: Relation Plot
+
+Kaggle_Challenge_Team_1.ipynb -> seaborn: histplot(dropped_train_df['Age'])
+seaborn --> Kaggle_Challenge_Team_1.ipynb: Histogram Plot
+
+Kaggle_Challenge_Team_1.ipynb -> seaborn: displot(dropped_train_df['HomePlanet'])
+seaborn --> Kaggle_Challenge_Team_1.ipynb: Distribution Plot
+
+Kaggle_Challenge_Team_1.ipynb -> seaborn: catplot(x='Age', kind='box')
+seaborn --> Kaggle_Challenge_Team_1.ipynb: Categorical Plot
+
+Kaggle_Challenge_Team_1.ipynb -> torch: SpaceshipTitanic()
+torch --> Kaggle_Challenge_Team_1.ipynb: Model Architecture
+
+Kaggle_Challenge_Team_1.ipynb -> torch: nn.BCELoss()
+torch --> Kaggle_Challenge_Team_1.ipynb: Loss Function
+
+Kaggle_Challenge_Team_1.ipynb -> torch: optim.SGD()
+torch --> Kaggle_Challenge_Team_1.ipynb: Optimizer
+
+Kaggle_Challenge_Team_1.ipynb -> torch: model(X_train)
+torch --> Kaggle_Challenge_Team_1.ipynb: Model Prediction
+
+Kaggle_Challenge_Team_1.ipynb -> sklearn.metrics: accuracy_score(y_test, predicted)
+sklearn.metrics --> Kaggle_Challenge_Team_1.ipynb: Accuracy Score
+
+Kaggle_Challenge_Team_1.ipynb -> pandas: read_csv('test.csv')
+pandas -> Kaggle_Challenge_Team_1.ipynb: test_df
+
+Kaggle_Challenge_Team_1.ipynb -> torch: model(eval_data)
+torch --> Kaggle_Challenge_Team_1.ipynb: Prediction on Test Data
+
+Kaggle_Challenge_Team_1.ipynb -> pandas: DataFrame
+pandas --> Kaggle_Challenge_Team_1.ipynb: Submission DataFrame
+
+Kaggle_Challenge_Team_1.ipynb -> pandas: to_csv('submission.csv')
+pandas --> Kaggle_Challenge_Team_1.ipynb: CSV Submission
+
+

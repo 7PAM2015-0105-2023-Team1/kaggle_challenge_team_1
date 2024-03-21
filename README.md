@@ -70,7 +70,7 @@
 ![CSV file](https://img.shields.io/badge/CSV_File-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)
 
 ##### Output Data
-[![Predicted Transported Passengers](https://img.shields.io/badge/Predicted%20Transported%20Passengers-1000-blue)](https://yourlinkhere.com)
+[![Predicted Transported Passengers](https://img.shields.io/badge/Predicted%20Transported%20Passengers-1000+-blue)](https://yourlinkhere.com)
 [![EDA](https://img.shields.io/badge/EDA-brightgreen)](https://yourlinkhere.com)
 [![Score](https://img.shields.io/badge/Score-0.79-red)](https://yourlinkhere.com)
 

@@ -93,8 +93,30 @@ To describe the model, its successes and failures, and collaborative work on the
     + Each layer is connected via linear transformation followed by activation functions like ReLU and Sigmoid.
     + The model is trained using binary cross-entropy loss and optimized using the stochastic gradient descent (SGD) optimizer.
     + The model architecture facilitates learning patterns from the input data to predict the binary outcome, which in this case is whether a passenger was transported.
-+ Item B
-    + Item B 1
-    + Item B 2
-    + Item B 3
+  
++ #### Training Scheme:
+    + The model is trained using a training dataset, which is split into training and testing sets.
+    + Training is performed over multiple epochs, where the model is trained to minimize the loss function.
+    + The optimizer updates the model parameters based on the gradients of the loss function with respect to the parameters.
+    + Training progress is monitored by printing the loss value at regular intervals during training.
+    + After training, the model is evaluated using the testing dataset to measure its performance.
+
++ #### Exploratory Data Analysis (EDA):
+    + Exploratory Data Analysis (EDA) is performed on the training dataset to understand the data and identify patterns.
+    + EDA involves statistical analysis, visualization, and exploration of relationships between variables.
+    + Various plots such as pair plots, histograms, and categorical plots are used to visualize the data distribution and relationships.
+    + Correlation matrices are computed to identify relationships between numerical variables.
+
++ #### Performance Analysis:
+    + Model performance is evaluated using accuracy score on the testing dataset.
+    + Accuracy score measures the proportion of correctly predicted outcomes.
+    + The accuracy score helps assess how well the model generalizes to unseen data.
+    + Additionally, predictions are made on the testing dataset and submitted to Kaggle for evaluation.
+
++ #### Collaborative Work:
+    + Collaborative work involves multiple team members contributing to different aspects of the project.
+    + Responsibilities may include data preprocessing, feature engineering, model development, and performance evaluation.
+    + Collaboration often requires communication, sharing of ideas, and coordination to ensure smooth progress.
+    + Tools like Git/GitHub may be used for version control and collaboration management.
+By following this process, the team can effectively describe the model, its successes and failures, and collaborative efforts in completing the Kaggle Challenge. Additionally, the presentation of EDA and performance analysis helps provide insights into the data and model performance.
 

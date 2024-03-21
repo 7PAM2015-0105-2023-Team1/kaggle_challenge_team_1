@@ -82,3 +82,19 @@
 - Model building involves defining, training, and evaluating a neural network using PyTorch for binary classification.
 - The trained model is evaluated using accuracy score and used to make predictions on test data.
 - The predictions are then saved to a CSV file for submission to the Kaggle challenge.
+
+
+## Model Working/Conclusions
+To describe the model, its successes and failures, and collaborative work on the Kaggle Challenge, we will break down the process into sections as follows:
++ Model Description and Architecture:
+    + The model used in this project is a neural network architecture implemented using PyTorch.
+    + The model architecture consists of multiple layers including input, hidden, and output layers.
+    + Specifically, the SpaceshipTitanic class defines the architecture with input features, hidden layers, and output layer.
+    + Each layer is connected via linear transformation followed by activation functions like ReLU and Sigmoid.
+    + The model is trained using binary cross-entropy loss and optimized using the stochastic gradient descent (SGD) optimizer.
+    + The model architecture facilitates learning patterns from the input data to predict the binary outcome, which in this case is whether a passenger was transported.
++ Item B
+    + Item B 1
+    + Item B 2
+    + Item B 3
+

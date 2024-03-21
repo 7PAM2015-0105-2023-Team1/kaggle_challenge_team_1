@@ -9,6 +9,7 @@
 <!-- Intro  -->
 <h3 align="center">
         <samp>&gt; Group Project - Kaggle Challenge
+          <br>
                 <b><a target="_blank" href="https://github.com/7PAM2015-0105-2023-Team1">
 7PAM2015-0105--2023-Team1</a></b>
         </samp>

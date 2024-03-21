@@ -17,7 +17,10 @@
 
 <p align="center"> 
 <p>
- <img align="right" width="350" src="Kaggle challenge (2).jpg" alt="Spaceship Titanic" />
+<div style="text-align:center;">
+    <img src="Kaggle challenge (2).jpg" alt="Spaceship Titanic" style="width:100%;" />
+</div>
+
 
 </p>
   <samp>

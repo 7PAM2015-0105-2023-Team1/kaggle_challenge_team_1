@@ -84,7 +84,7 @@
 - The predictions are then saved to a CSV file for submission to the Kaggle challenge.
 
 
-## Model Working/Conclusions
+## Working Schema
 To describe the model, its successes and failures, and collaborative work on the Kaggle Challenge, we will break down the process into sections as follows:
 + #### Model Description and Architecture:
     + The model used in this project is a neural network architecture implemented using PyTorch.
@@ -118,5 +118,6 @@ To describe the model, its successes and failures, and collaborative work on the
     + Responsibilities may include data preprocessing, feature engineering, model development, and performance evaluation.
     + Collaboration often requires communication, sharing of ideas, and coordination to ensure smooth progress.
     + Tools like Git/GitHub may be used for version control and collaboration management.
+
 By following this process, the team can effectively describe the model, its successes and failures, and collaborative efforts in completing the Kaggle Challenge. Additionally, the presentation of EDA and performance analysis helps provide insights into the data and model performance.
 

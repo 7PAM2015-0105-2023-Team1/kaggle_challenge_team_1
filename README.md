@@ -44,9 +44,6 @@
 - Muhammad Hanzala
 - Muhammad Hamza Naseer
 
-
-<br/>
-<br/>
 <br/>
 
 ## Tools Used in the Project

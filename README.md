@@ -71,6 +71,6 @@
 
 ##### Output Data
 [![Predicted Transported Passengers](https://img.shields.io/badge/Predicted%20Transported%20Passengers-1000-blue)](https://yourlinkhere.com)
-[![EDA](https://img.shields.io/badge/EDA-Completed-brightgreen)](https://yourlinkhere.com)
-[![Score](https://img.shields.io/badge/Score-0.95-red)](https://yourlinkhere.com)
+[![EDA](https://img.shields.io/badge/EDA-Exploratory-Data-Analysis-brightgreen)](https://yourlinkhere.com)
+[![Score](https://img.shields.io/badge/Score-0.79-red)](https://yourlinkhere.com)
 

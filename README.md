@@ -86,7 +86,7 @@
 
 ## Model Working/Conclusions
 To describe the model, its successes and failures, and collaborative work on the Kaggle Challenge, we will break down the process into sections as follows:
-+ Model Description and Architecture:
+#### + Model Description and Architecture:
     + The model used in this project is a neural network architecture implemented using PyTorch.
     + The model architecture consists of multiple layers including input, hidden, and output layers.
     + Specifically, the SpaceshipTitanic class defines the architecture with input features, hidden layers, and output layer.
